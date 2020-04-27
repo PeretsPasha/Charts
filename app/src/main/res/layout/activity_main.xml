@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="63dp"
+        android:onClick="showBarChart"
         android:text="Bar Chart"
         app:layout_constraintBottom_toTopOf="@+id/pieChartButton"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +25,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginLeft="12dp"
         android:layout_marginBottom="53dp"
+        android:onClick="showPieChart"
         android:text="Pie Chart"
         app:layout_constraintBottom_toTopOf="@+id/radarChartButton"
         app:layout_constraintStart_toStartOf="@+id/radarChartButton" />
@@ -33,6 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="241dp"
+        android:onClick="showRadarChart"
         android:text="Radar Chart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
